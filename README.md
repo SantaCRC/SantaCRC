@@ -38,7 +38,7 @@
   
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santacrc&layout=compact)](https://github.com/SantaCRC)
   
-  [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=santacrc)](https://github.com/SantaCRC)
+  [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=santacrc&layout=compact)](https://github.com/SantaCRC)
 
 
   
