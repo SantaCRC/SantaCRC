@@ -37,6 +37,9 @@
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
   
   [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=santacrc&layout=compact)](https://github.com/SantaCRC)
+  
+  [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=santacrc)](https://github.com/SantaCRC)
+
 
   
 </div>
