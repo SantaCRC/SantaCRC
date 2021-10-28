@@ -35,6 +35,9 @@
 
 ## Stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
+  
+  [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 
   
