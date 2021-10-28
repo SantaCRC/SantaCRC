@@ -30,6 +30,11 @@
   ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+  
+  ### Now working in
+  
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=santacrc&repo=Blockduino)](https://github.com/SantaCRC/Blockduino)
+
 
 ## Stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://git.io/streak-stats)
