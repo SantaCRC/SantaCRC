@@ -31,9 +31,6 @@
 ![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
   
-  ### Now working in
-  
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=santacrc&repo=Blockduino)](https://github.com/SantaCRC/Blockduino)
 
 
 ## Stats
