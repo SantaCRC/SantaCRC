@@ -15,7 +15,7 @@ else:
 # Extraer las tres últimas publicaciones
 latest_posts = data[:3]
 
-# Generar la tabla Markdown sin encabezado, con imágenes como enlaces
+# Generar la tabla Markdown con enlaces a Instagram
 markdown_table = '## Latest Instagram Posts\n\n'
 markdown_table += '|---|---|---|\n'
 
