@@ -15,19 +15,21 @@ else:
 # Extraer las tres últimas publicaciones
 latest_posts = data[:3]
 
-# Generar la tabla Markdown sin encabezado
+# Generar la tabla Markdown sin encabezado, con imágenes como enlaces
 markdown_table = '## Latest Instagram Posts\n\n'
+markdown_table += '|---|---|---|\n'
 
-# Recolectar las URLs de las imágenes
-image_urls = [post.get('image', '') for post in latest_posts]
+# Recolectar las URLs de las imágenes y enlaces de las publicaciones
+image_links = [
+    (post.get('image', ''), post.get('link', '#')) for post in latest_posts
+]
 
-# Añadir las imágenes a la tabla
+# Añadir las imágenes con enlaces a la tabla
 markdown_table += '|'
-for url in image_urls:
-    markdown_table += f' ![]({url}) |'
+for image_url, post_link in image_links:
+    markdown_table += f' [![]({image_url})]({post_link}) |'
 markdown_table += '\n'
 
-markdown_table += '|---|---|---|\n'
 # Leer el archivo README.md
 with open('README.md', 'r', encoding='utf-8') as file:
     readme_content = file.read()
