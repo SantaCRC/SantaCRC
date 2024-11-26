@@ -1,6 +1,3 @@
-
-
-
 <div align="center">
   
 ## About me
@@ -37,19 +34,12 @@
     [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabian-a-alvarez/)
    [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_SantaCRC_)
 
-  
-  
-
-
 ## Stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/SantaCRC)
 
+## Latest Instagram Posts
 
-
-  ## Latest Instagram Posts
-
-| ![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467941909_17853680571333196_7721653764865265119_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=4tkCSAUlvysQ7kNvgGm8mEs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYCcf8_mKNmEalIpEx4hw4EW8frY3tI62ppwqeuRR2OsXw&oe=6749C599) | ![](https://scontent-sjc3-1.cdninstagram.com/v/t51.29350-15/468126752_459202540135949_6855116969796609433_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=o03ZD_txfVQQ7kNvgEAF9WK&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYDL518Ku-kn_J9CjxgS2U6QZ1Ekq01NAPJzXS2gfLIyaA&oe=6749A345) | ![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467649455_17853337398333196_1670008221207277219_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=KEIX61qeUXMQ7kNvgGJOTL8&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYBa9SR9gFmIeDoKxnJt7nrS9YdWi9-oN6pgrqzd5ASHVQ&oe=6749AFEF) |
+ [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467941909_17853680571333196_7721653764865265119_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=4tkCSAUlvysQ7kNvgGm8mEs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYCcf8_mKNmEalIpEx4hw4EW8frY3tI62ppwqeuRR2OsXw&oe=6749C599)](https://www.instagram.com/reel/DCtNdK9oQO7/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.29350-15/468126752_459202540135949_6855116969796609433_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=o03ZD_txfVQQ7kNvgEAF9WK&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYDL518Ku-kn_J9CjxgS2U6QZ1Ekq01NAPJzXS2gfLIyaA&oe=6749A345)](https://www.instagram.com/p/DCrD918tKqd/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467649455_17853337398333196_1670008221207277219_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=KEIX61qeUXMQ7kNvgGJOTL8&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYBa9SR9gFmIeDoKxnJt7nrS9YdWi9-oN6pgrqzd5ASHVQ&oe=6749AFEF)](https://www.instagram.com/reel/DCmznP7NnIY/) |
 |---|---|---|
-<div>
