@@ -34,7 +34,7 @@ markdown_table += '\n'
 with open('README.md', 'r', encoding='utf-8') as file:
     readme_content = file.read()
 
-# Reemplazar la sección existente
+# Reemplazar toda la sección existente "## Latest Instagram Posts"
 updated_content = re.sub(
     r'## Latest Instagram Posts\n\n.*?\n\n',
     markdown_table + '\n',
