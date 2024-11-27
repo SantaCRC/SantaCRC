@@ -43,36 +43,44 @@ README_CONSTANT = """<div align="center">
   [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/SantaCRC)
 """
 
-# Obtener las últimas publicaciones de Instagram
-url = 'https://fabianalvarez.dev/instagram.json'
+# API de OpenWeather
+OPENWEATHER_API_KEY = "279efc54469dc86932b9bf4bd544516f"
+city = "Ferrol"
+weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
-# Obtener los datos del JSON
-response = requests.get(url)
-if response.status_code == 200:
-    data = response.json()
+# Obtener datos del clima
+weather_response = requests.get(weather_url)
+if weather_response.status_code == 200:
+    weather_data = weather_response.json()
+    weather_description = weather_data["weather"][0]["description"].capitalize()
+    temperature = weather_data["main"]["temp"]
+    weather_section = f"## Weather in {city}\n\nCurrent temperature: **{temperature}°C**\n\nWeather description: **{weather_description}**\n\n"
 else:
-    print("No se pudo obtener el archivo JSON.")
-    exit()
+    weather_section = "## Weather information not available at the moment.\n\n"
 
-# Extraer las tres últimas publicaciones
-latest_posts = data[:3]
+# API de Instagram JSON
+instagram_url = 'https://fabianalvarez.dev/instagram.json'
 
-# Generar la tabla Markdown con enlaces a Instagram
-instagram_section = '## Latest Instagram Posts\n\n'
+# Obtener las últimas publicaciones de Instagram
+instagram_response = requests.get(instagram_url)
+if instagram_response.status_code == 200:
+    instagram_data = instagram_response.json()
+    latest_posts = instagram_data[:3]
 
-
-# Recolectar las URLs de las imágenes y enlaces de las publicaciones
-for post in latest_posts:
-    image_url = post.get('image', '')
-    post_link = post.get('link', '#')
-    instagram_section += f' [![]({image_url})]({post_link}) |'
-
-instagram_section += '\n'
-instagram_section += '|---|---|---|\n'
+    instagram_section = '## Latest Instagram Posts\n\n|---|---|---|\n|'
+    for post in latest_posts:
+        image_url = post.get('image', '')
+        post_link = post.get('link', '#')
+        instagram_section += f' [![]({image_url})]({post_link}) |'
+    instagram_section += '\n'
+else:
+    instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
 # Crear el archivo README.md
 with open('README.md', 'w', encoding='utf-8') as file:
     file.write(README_CONSTANT)
+    file.write('\n')
+    file.write(weather_section)
     file.write('\n')
     file.write(instagram_section)
 
