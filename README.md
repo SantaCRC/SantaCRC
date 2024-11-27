@@ -2,7 +2,7 @@
   
 ## About me
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineering+student;from+Costa+Rica)](https://github.com/SantaCRC)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineer;from+Costa+Rica)](https://github.com/SantaCRC)
 
 ### Programming languages
   ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
