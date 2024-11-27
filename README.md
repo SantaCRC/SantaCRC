@@ -2,7 +2,7 @@
   
 ## About me
   
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineering+student;from+Costa+Rica)](https://github.com/SantaCRC)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineer;from+Costa+Rica)](https://github.com/SantaCRC)
 
 ### Programming languages
   ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
@@ -39,7 +39,14 @@
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/SantaCRC)
 
+## Weather in Ferrol
+
+Current temperature: **17.51°C**
+
+Weather description: **Broken clouds**
+
+
 ## Latest Instagram Posts
 
- [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467941909_17853680571333196_7721653764865265119_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=4tkCSAUlvysQ7kNvgGm8mEs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYCcf8_mKNmEalIpEx4hw4EW8frY3tI62ppwqeuRR2OsXw&oe=6749C599)](https://www.instagram.com/reel/DCtNdK9oQO7/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.29350-15/468126752_459202540135949_6855116969796609433_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=o03ZD_txfVQQ7kNvgEAF9WK&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYDL518Ku-kn_J9CjxgS2U6QZ1Ekq01NAPJzXS2gfLIyaA&oe=6749A345)](https://www.instagram.com/p/DCrD918tKqd/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467649455_17853337398333196_1670008221207277219_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=KEIX61qeUXMQ7kNvgGJOTL8&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYBa9SR9gFmIeDoKxnJt7nrS9YdWi9-oN6pgrqzd5ASHVQ&oe=6749AFEF)](https://www.instagram.com/reel/DCmznP7NnIY/) |
 |---|---|---|
+| [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467941909_17853680571333196_7721653764865265119_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=4tkCSAUlvysQ7kNvgGm8mEs&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYCcf8_mKNmEalIpEx4hw4EW8frY3tI62ppwqeuRR2OsXw&oe=6749C599)](https://www.instagram.com/reel/DCtNdK9oQO7/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.29350-15/468126752_459202540135949_6855116969796609433_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=18de74&_nc_ohc=o03ZD_txfVQQ7kNvgEAF9WK&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYDL518Ku-kn_J9CjxgS2U6QZ1Ekq01NAPJzXS2gfLIyaA&oe=6749A345)](https://www.instagram.com/p/DCrD918tKqd/) | [![](https://scontent-sjc3-1.cdninstagram.com/v/t51.75761-15/467649455_17853337398333196_1670008221207277219_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=KEIX61qeUXMQ7kNvgGJOTL8&_nc_zt=23&_nc_ht=scontent-sjc3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A0isocNznJ-5lBTgGpxxBrk&oh=00_AYBa9SR9gFmIeDoKxnJt7nrS9YdWi9-oN6pgrqzd5ASHVQ&oe=6749AFEF)](https://www.instagram.com/reel/DCmznP7NnIY/) |
