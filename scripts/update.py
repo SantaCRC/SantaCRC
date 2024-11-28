@@ -67,12 +67,13 @@ if instagram_response.status_code == 200:
     instagram_data = instagram_response.json()
     latest_posts = instagram_data[:3]
 
-    instagram_section = '## Latest Instagram Posts\n\n|---|---|---|\n|'
+    instagram_section = '## Latest Instagram Posts\n\n'
     for post in latest_posts:
         image_url = post.get('image', '')
         post_link = post.get('link', '#')
         instagram_section += f' [![]({image_url})]({post_link}) |'
     instagram_section += '\n'
+    instagram_section += '|--- | --- | --- |'
 else:
     instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
