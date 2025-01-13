@@ -41,7 +41,7 @@
 
 ## Weather in Ferrol
 
-Current temperature: **8.25°C**
+Current temperature: **8.75°C**
 
 Weather description: **Overcast clouds**
 
