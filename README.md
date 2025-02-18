@@ -41,17 +41,14 @@
 
 ## Weather in Ferrol
 
-Current temperature: **10.19°C**
+Current temperature: **11.68°C**
 
 Weather description: **Overcast clouds**
 
 
 ## Latest Instagram Posts
 
- [![](https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/470365054_592808786586479_5653095501391371942_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=AIO3osdWvjAQ7kNvgF4SU48&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AnOx6i7oQ8EY-Z76X5V_2pT&oh=00_AYC1XABChBMc7rA-nSj4YFy8Npqn5f5fzKfWTev0azGsTw&oe=676512D2)](https://www.instagram.com/p/DDkhWm_qaU-/) | [![](https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/469683288_542391642116285_4038340895715757576_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=z_jZuNJk56wQ7kNvgEUtf9s&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AnOx6i7oQ8EY-Z76X5V_2pT&oh=00_AYCn5FP1JSE-CYGpfXNFEjo7YXaDS2dYopDRzf1moRuEWw&oe=6765144C)](https://www.instagram.com/p/DDdYS8wolcF/) | [![](https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/469673865_17856522921333196_3559664451941641029_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=cCRA71EnYMcQ7kNvgHuRnKR&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AnOx6i7oQ8EY-Z76X5V_2pT&oh=00_AYCuHi3o0-L0k6se6qQSKTVj2ZA7resmeDIsmsC4aSO34A&oe=67652A76)](https://www.instagram.com/reel/DDdXh7Kowyd/) |
+ [![](https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/477027277_17864839659333196_5748038681958282218_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=-24MOk1iUnIQ7kNvgGaGe97&_nc_oc=Adg41wdKnWqvXoSi23iiqJs9Ewf-OAfyyAYF2B4XUpp5RfS-zd2VX8eDzHrjhYjJgrQ&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AGUeWLvuoirft_-WjcKqSwS&oh=00_AYCqHtrv8mRbFoD2iTyq7xdMYZg7QbW5DHMmBnM-3Ei33w&oe=67B44388)](https://www.instagram.com/p/DF20iQbNaka/) | [![](https://scontent-iad3-2.cdninstagram.com/v/t51.75761-15/476187601_17863825443333196_5514719155673675142_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=qngec3xJ4CMQ7kNvgEwRfQR&_nc_oc=AdgOeeSjpzDJpMMwckuoqAQPIlN29hMFja7VTmMBdzaBqDhCTTbn07ATo13comAKB1Q&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AGUeWLvuoirft_-WjcKqSwS&oh=00_AYCX74TZTMxbNkCzAKeSK0vcDKQz89KUFWNHYVOmtXw3qA&oe=67B44E73)](https://www.instagram.com/p/DFjHNQ8SbVh/) | [![](https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/469911920_455722270894834_9158446343427890949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=yHVwbVk1fTgQ7kNvgFICjzJ&_nc_oc=AdjWY4ibqxVyRli4EAByC3GKvhrCLPcJ-x4JLZqPasmBY196i4XrmAOLc1WE2tnrhBM&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AGUeWLvuoirft_-WjcKqSwS&oh=00_AYC3uRu9n-AEvnqnR0e2o3IMQu85Pfp53KJgBQX2ujThqQ&oe=67B42DD1)](https://www.instagram.com/p/DEiJ2sbtTy-/) |
 |--- | --- | --- |
 ## Latest Blog Posts
 
-- **[Markdown Syntax Guide](http://fabianalvarez.dev/posts/markdown-syntax/)**: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
-- **[Code Syntax Guide](http://fabianalvarez.dev/posts/code_syntax/)**: Sample article showcasing basic code syntax and formatting for HTML elements.
-- **[Rich Content and Shortcodes](http://fabianalvarez.dev/posts/rich-content/)**: A brief description of Hugo Shortcodes
