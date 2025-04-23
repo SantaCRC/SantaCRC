@@ -41,7 +41,7 @@
 
 ## Weather in Ferrol
 
-Current temperature: **11.47°C**
+Current temperature: **11.34°C**
 
 Weather description: **Scattered clouds**
 
@@ -52,3 +52,6 @@ Weather description: **Scattered clouds**
 |--- | --- | --- |
 ## Latest Blog Posts
 
+- **[Design of a RISC-V Microprocessor with GPIO Integration](http://fabianalvarez.dev/posts/arduriscv/idea/)**: This series documents my attempt to recreate a RISC-V-based microprocessor I previously developed, this time with GPIO integration to expand its functionality.
+- **[First Steps in RISC-V Microcontroller Development](http://fabianalvarez.dev/posts/arduriscv/primeros_pasos/)**: This second article in the series documents the selection of hardware and development tools for implementing a RISC-V microcontroller with GPIO integration.
+- **[Implementing a Register File for a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/arduriscv/banco_de_registros/)**: This article explains the importance of the register file in a RISC-V 32I processor and how to implement it in Verilog for an FPGA.
