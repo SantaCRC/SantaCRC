@@ -43,7 +43,7 @@
 
 Current temperature: **11.34°C**
 
-Weather description: **Scattered clouds**
+Weather description: **Broken clouds**
 
 
 ## Latest Instagram Posts
@@ -52,6 +52,6 @@ Weather description: **Scattered clouds**
 |--- | --- | --- |
 ## Latest Blog Posts
 
-- **[Design of a RISC-V Microprocessor with GPIO Integration](http://fabianalvarez.dev/posts/arduriscv/idea/)**: This series documents my attempt to recreate a RISC-V-based microprocessor I previously developed, this time with GPIO integration to expand its functionality.
-- **[First Steps in RISC-V Microcontroller Development](http://fabianalvarez.dev/posts/arduriscv/primeros_pasos/)**: This second article in the series documents the selection of hardware and development tools for implementing a RISC-V microcontroller with GPIO integration.
-- **[Implementing a Register File for a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/arduriscv/banco_de_registros/)**: This article explains the importance of the register file in a RISC-V 32I processor and how to implement it in Verilog for an FPGA.
+- **[Implementing a Register File for a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/arduriscv/banco_de_registros/)** (16 Mar 2025): This article explains the importance of the register file in a RISC-V 32I processor and how to implement it in Verilog for an FPGA.
+- **[Implementing the Control Unit of a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/arduriscv/unidad_de_control/)** (16 Mar 2025): In this article, we explain what the Control Unit of a RISC-V 32I processor is and how to implement it step-by-step in Verilog on an FPGA.
+- **[First Steps in RISC-V Microcontroller Development](http://fabianalvarez.dev/posts/arduriscv/primeros_pasos/)** (19 Feb 2025): This second article in the series documents the selection of hardware and development tools for implementing a RISC-V microcontroller with GPIO int...
