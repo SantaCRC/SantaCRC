@@ -1,5 +1,6 @@
 import requests
 import feedparser
+from datetime import datetime
 
 # Parte constante del README
 README_CONSTANT = """<div align="center">
@@ -78,12 +79,36 @@ if instagram_response.status_code == 200:
 else:
     instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
-# Obtener las últimas publicaciones del blog
+# Obtener las últimas publicaciones del blog (ordenadas por fecha)
 rss_feed_url = "https://fabianalvarez.dev/index.xml"
 rss_feed = feedparser.parse(rss_feed_url)
+
 blog_section = "## Latest Blog Posts\n\n"
-for entry in rss_feed.entries[:3]:
-    blog_section += f"- **[{entry.title}]({entry.link})**: {entry.summary}\n"
+
+if rss_feed.bozo:
+    blog_section += "⚠️ Failed to load blog posts.\n"
+else:
+    # Ordenar explícitamente por fecha descendente
+    sorted_entries = sorted(
+        rss_feed.entries,
+        key=lambda entry: entry.published_parsed if "published_parsed" in entry else None,
+        reverse=True
+    )
+
+    for entry in sorted_entries[:3]:
+        # Formatear fecha
+        if "published_parsed" in entry:
+            pub_date = datetime(*entry.published_parsed[:6]).strftime("%d %b %Y")
+        else:
+            pub_date = "Unknown date"
+
+        # Resumen corto
+        summary = entry.summary.strip()
+        if len(summary) > 150:
+            summary = summary[:147] + "..."
+
+        blog_section += f"- **[{entry.title}]({entry.link})** ({pub_date}): {summary}\n"
+
 
 # Crear el archivo README.md
 with open('README.md', 'w', encoding='utf-8') as file:
