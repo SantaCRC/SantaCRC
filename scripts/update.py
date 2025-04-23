@@ -79,7 +79,7 @@ else:
     instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
 # Obtener las últimas publicaciones del blog
-rss_feed_url = "https://fabianalvarez.dev/posts/index.xml"
+rss_feed_url = "https://fabianalvarez.dev/index.xml"
 rss_feed = feedparser.parse(rss_feed_url)
 blog_section = "## Latest Blog Posts\n\n"
 for entry in rss_feed.entries[:3]:
