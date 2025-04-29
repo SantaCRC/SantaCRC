@@ -43,7 +43,7 @@
 
 Current temperature: **15.64°C**
 
-Weather description: **Overcast clouds**
+Weather description: **Scattered clouds**
 
 
 ## Latest Instagram Posts
