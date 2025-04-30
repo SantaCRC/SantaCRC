@@ -43,7 +43,7 @@
 
 Current temperature: **13.53°C**
 
-Weather description: **Moderate rain**
+Weather description: **Light rain**
 
 
 ## Latest Instagram Posts
