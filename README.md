@@ -41,7 +41,7 @@
 
 ## Weather in Ferrol
 
-Current temperature: **16.49°C**
+Current temperature: **16.56°C**
 
 Weather description: **Overcast clouds**
 
@@ -52,6 +52,6 @@ Weather description: **Overcast clouds**
 |--- | --- | --- |
 ## Latest Blog Posts
 
+- **[Discovering LiteX: Building SoCs Like LEGO](http://fabianalvarez.dev/posts/litex/first_steps/)** (20 May 2025): In this article I explore how to use LiteX to build a SoC from scratch on a Tang Nano 9K FPGA, integrating a RISC-V processor and peripherals like ...
 - **[Implementing a Register File for a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/riscvduino/banco_de_registros/)** (16 Mar 2025): This article explains the importance of the register file in a RISC-V 32I processor and how to implement it in Verilog for an FPGA.
 - **[Implementing the Control Unit of a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/riscvduino/unidad_de_control/)** (16 Mar 2025): In this article, we explain what the Control Unit of a RISC-V 32I processor is and how to implement it step-by-step in Verilog on an FPGA.
-- **[First Steps in RISC-V Microcontroller Development](http://fabianalvarez.dev/posts/riscvduino/primeros_pasos/)** (19 Feb 2025): This second article in the series documents the selection of hardware and development tools for implementing a RISC-V microcontroller with GPIO int...
