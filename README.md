@@ -41,9 +41,9 @@
 
 ## Weather in Ferrol
 
-Current temperature: **16.24°C**
+Current temperature: **15.67°C**
 
-Weather description: **Overcast clouds**
+Weather description: **Broken clouds**
 
 
 ## Latest Instagram Posts
@@ -53,5 +53,5 @@ Weather description: **Overcast clouds**
 ## Latest Blog Posts
 
 - **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/posts/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
+- **[HDMI Output with LiteX on the Tang Nano 9K](http://fabianalvarez.dev/posts/litex/hdmi/)** (25 May 2025): We explore how to generate real-time graphics from a Tang Nano 9K FPGA using the LiteX framework, featuring HDMI output and custom patterns such as...
 - **[Discovering LiteX: Building SoCs Like LEGO](http://fabianalvarez.dev/posts/litex/first_steps/)** (20 May 2025): In this article I explore how to use LiteX to build a SoC from scratch on a Tang Nano 9K FPGA, integrating a RISC-V processor and peripherals like ...
-- **[Implementing a Register File for a RISC-V 32I Processor on FPGA](http://fabianalvarez.dev/posts/riscvduino/banco_de_registros/)** (16 Mar 2025): This article explains the importance of the register file in a RISC-V 32I processor and how to implement it in Verilog for an FPGA.
