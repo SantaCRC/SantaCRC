@@ -41,7 +41,7 @@
 
 ## Weather in Veintisiete de Abril
 
-Current temperature: **26.57°C**
+Current temperature: **24.67°C**
 
 Weather description: **Overcast clouds**
 
