@@ -41,17 +41,17 @@
 
 ## Weather in Veintisiete de Abril
 
-Current temperature: **26.95°C**
+Current temperature: **25.32°C**
 
 Weather description: **Light rain**
 
 
 ## Latest Instagram Posts
 
- [![](https://scontent-sea1-1.cdninstagram.com/v/t51.75761-15/485056191_17869761531333196_6785709629826891386_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=ca3jCmuNP3wQ7kNvwG_qPu5&_nc_oc=AdnrtBp78iu5F7OJ_9t_p7jdT70bohCLDvSWFDfqohx4GSxx8Yg0ALoMUw6IOpPmXrM&_nc_zt=23&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=3eSWTwtjeBiIhSgo7eoXKQ&oh=00_AfPBN3qLs8zw8VHUeOyTcsLJtSQn5HpZmhGfxVQvTQ98wg&oe=6865F60A)](https://www.instagram.com/p/DHRbzu2PhqM/) | [![](https://scontent-sea1-1.cdninstagram.com/v/t51.75761-15/477027277_17864839659333196_5748038681958282218_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=s0OSPgea2wkQ7kNvwH7vUaQ&_nc_oc=AdkVyDv82r3UrgqVckyYozNGDXA_ZrpennWV7oOpbPLR7ga4z4yMHvdR7Y0tlO3zNnY&_nc_zt=23&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=3eSWTwtjeBiIhSgo7eoXKQ&oh=00_AfOLsYVStVwa0Jmf-Y_oE5WfDQpoK4xLJHUWp1yUF8M1cQ&oe=686605C8)](https://www.instagram.com/p/DF20iQbNaka/) | [![](https://scontent-sea1-1.cdninstagram.com/v/t51.75761-15/476187601_17863825443333196_5514719155673675142_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=INNODYMRqEcQ7kNvwEwKZog&_nc_oc=Adm-d5MwDWkNvbUluqyY5rypSR-doVrFATEjqu0kh9LMfSZqSVVugkQNGHQFgBCwlWQ&_nc_zt=23&_nc_ht=scontent-sea1-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=3eSWTwtjeBiIhSgo7eoXKQ&oh=00_AfMc7Q_pAwVOLqyDUXOgSWgYkOppMkPrzYKqwGrej0JOUw&oe=686610B3)](https://www.instagram.com/p/DFjHNQ8SbVh/) |
+ [![](https://scontent-ams4-1.cdninstagram.com/v/t51.75761-15/485056191_17869761531333196_6785709629826891386_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=keMygYBoUuUQ7kNvwHZrbgk&_nc_oc=AdmI5kaTcoPY431-Bde1N1Dpk5nuDbbTn_cNjrvwZu4FLmtSlR2EWCut_Ryzlng6Ve4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfWJf28vlLxAYRMKPVVJjLVk7iaV7Fou-nzxY-QFXLRTdg&oe=68A0304A)](https://www.instagram.com/p/DHRbzu2PhqM/) | [![](https://scontent-ams2-1.cdninstagram.com/v/t51.75761-15/477027277_17864839659333196_5748038681958282218_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=5qQ7356NsT8Q7kNvwHb7-55&_nc_oc=AdmoXh2lghIj_glOwwpbpyE-MXzuBgYBOO2bb1VtkRNycMtS61DkhmjRnyj77c_4I5I&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfUHAZUyGOKE4dWrHokjDN8ulmj1uGGZHNGIOwr9-13FRA&oe=68A04008)](https://www.instagram.com/p/DF20iQbNaka/) | [![](https://scontent-ams2-1.cdninstagram.com/v/t51.75761-15/476187601_17863825443333196_5514719155673675142_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=QgNb-p-XfZEQ7kNvwE1huSg&_nc_oc=AdlDlSMHdV25JwnWBvhXDzGHXBte_OsNkAkRYgPMo9q0JOrMzGf4Ej3-7TWa9IwIQwo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfUOi8oJ4enXIDFtxDCQ2D4vB3exqMuFjyxURmjKdcpi-Q&oe=68A04AF3)](https://www.instagram.com/p/DFjHNQ8SbVh/) |
 |--- | --- | --- |
 ## Latest Blog Posts
 
+- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/posts/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
 - **[Linux on LiteX: Building a SoC with Buildroot and Tang Nano 20K](http://fabianalvarez.dev/posts/litex/linux-on-litex/)** (12 Jun 2025): We create a SoC capable of running Linux on a Tang Nano 20K using LiteX and Buildroot—great for low-cost projects.
 - **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/posts/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
-- **[HDMI Output with LiteX on the Tang Nano 9K](http://fabianalvarez.dev/posts/litex/hdmi/)** (25 May 2025): We explore how to generate real-time graphics from a Tang Nano 9K FPGA using the LiteX framework, featuring HDMI output and custom patterns such as...
