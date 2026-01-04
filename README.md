@@ -41,7 +41,7 @@
 
 ## Weather in Veintisiete de Abril
 
-Current temperature: **26.96°C**
+Current temperature: **30.27°C**
 
 Weather description: **Clear sky**
 
@@ -53,5 +53,5 @@ Weather description: **Clear sky**
 ## Latest Blog Posts
 
 - **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/posts/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
-- **[Linux on LiteX: Building a SoC with Buildroot and Tang Nano 20K](http://fabianalvarez.dev/posts/litex/linux-on-litex/)** (12 Jun 2025): We create a SoC capable of running Linux on a Tang Nano 20K using LiteX and Buildroot—great for low-cost projects.
+- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/posts/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
 - **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/posts/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
