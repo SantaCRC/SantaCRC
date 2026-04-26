@@ -41,14 +41,14 @@
 
 ## Weather in Veintisiete de Abril
 
-Current temperature: **29.75°C**
+Current temperature: **28.87°C**
 
-Weather description: **Light rain**
+Weather description: **Broken clouds**
 
 
 ## Latest Instagram Posts
 
- [![](https://scontent-ams4-1.cdninstagram.com/v/t51.75761-15/485056191_17869761531333196_6785709629826891386_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=keMygYBoUuUQ7kNvwHZrbgk&_nc_oc=AdmI5kaTcoPY431-Bde1N1Dpk5nuDbbTn_cNjrvwZu4FLmtSlR2EWCut_Ryzlng6Ve4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfWJf28vlLxAYRMKPVVJjLVk7iaV7Fou-nzxY-QFXLRTdg&oe=68A0304A)](https://www.instagram.com/p/DHRbzu2PhqM/) | [![](https://scontent-ams2-1.cdninstagram.com/v/t51.75761-15/477027277_17864839659333196_5748038681958282218_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=5qQ7356NsT8Q7kNvwHb7-55&_nc_oc=AdmoXh2lghIj_glOwwpbpyE-MXzuBgYBOO2bb1VtkRNycMtS61DkhmjRnyj77c_4I5I&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfUHAZUyGOKE4dWrHokjDN8ulmj1uGGZHNGIOwr9-13FRA&oe=68A04008)](https://www.instagram.com/p/DF20iQbNaka/) | [![](https://scontent-ams2-1.cdninstagram.com/v/t51.75761-15/476187601_17863825443333196_5514719155673675142_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=QgNb-p-XfZEQ7kNvwE1huSg&_nc_oc=AdlDlSMHdV25JwnWBvhXDzGHXBte_OsNkAkRYgPMo9q0JOrMzGf4Ej3-7TWa9IwIQwo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LuvP2tWTzfxHNTiH86-L7Q&oh=00_AfUOi8oJ4enXIDFtxDCQ2D4vB3exqMuFjyxURmjKdcpi-Q&oe=68A04AF3)](https://www.instagram.com/p/DFjHNQ8SbVh/) |
+ [![](None)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](None)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](None)](https://www.instagram.com/p/DWHdowODNAC/) |
 |--- | --- | --- |
 ## Latest Blog Posts
 
