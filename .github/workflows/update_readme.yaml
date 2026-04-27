@@ -29,6 +29,8 @@ jobs:
 
       # Ejecutar el script para actualizar README.md
       - name: Run update script
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
         run: python scripts/update.py
 
       # Confirmar y enviar cambios
