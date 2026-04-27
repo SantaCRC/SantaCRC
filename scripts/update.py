@@ -49,7 +49,7 @@ README_CONSTANT = """<div align="center">
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 if not OPENWEATHER_API_KEY:
   raise EnvironmentError("OPENWEATHER_API_KEY environment variable is not set.")
-city = "Veintisiete de Abril"
+city = "Ferrol"
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
 weather_response = requests.get(weather_url)
