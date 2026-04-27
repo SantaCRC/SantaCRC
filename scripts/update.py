@@ -46,7 +46,7 @@ README_CONSTANT = """<div align="center">
 """
 
 # API de OpenWeather
-OPENWEATHER_API_KEY = "279efc54469dc86932b9bf4bd544516f"
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 city = "Veintisiete de Abril"
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
