@@ -43,11 +43,12 @@ README_CONSTANT = """<div align="center">
 ## Stats
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
   
-  [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/SantaCRC)
 """
 
 # API de OpenWeather
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
+if not OPENWEATHER_API_KEY:
+  raise EnvironmentError("OPENWEATHER_API_KEY environment variable is not set.")
 city = "Veintisiete de Abril"
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
