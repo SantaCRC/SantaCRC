@@ -39,16 +39,12 @@
   
   [![trophy](https://github-profile-trophy.vercel.app/?username=santacrc&theme=discord&no-bg=true&no-frame=true&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C&column=3)](https://github.com/SantaCRC)
 
-## Weather in Veintisiete de Abril
-
-Current temperature: **28.87°C**
-
-Weather description: **Broken clouds**
+## Weather information not available at the moment.
 
 
 ## Latest Instagram Posts
 
- [![](None)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](None)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](None)](https://www.instagram.com/p/DWHdowODNAC/) |
+ [![](https://i.ibb.co/rRDrF439/instagram-18094372019111667.jpg)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](https://i.ibb.co/VpcH1B6r/instagram-18097991704972340.jpg)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](https://i.ibb.co/0p7DJN3b/instagram-18087664472187285.jpg)](https://www.instagram.com/p/DWHdowODNAC/) |
 |--- | --- | --- |
 ## Latest Blog Posts
 
