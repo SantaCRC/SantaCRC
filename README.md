@@ -40,17 +40,17 @@
 
 ## Weather in Ferrol
 
-Current temperature: **14.96°C**
+Current temperature: **12.74°C**
 
 Weather description: **Scattered clouds**
 
 
 ## Latest Instagram Posts
 
- [![](https://i.ibb.co/pBKCFS6y/instagram-18094372019111667.jpg)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](https://i.ibb.co/jv8MxL3Z/instagram-18097991704972340.jpg)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](https://i.ibb.co/TMrrnXGP/instagram-18087664472187285.jpg)](https://www.instagram.com/p/DWHdowODNAC/) |
+ [![](https://i.ibb.co/XrQLvF6y/instagram-18094372019111667.jpg)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](https://i.ibb.co/9HxGt9PF/instagram-18097991704972340.jpg)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](https://i.ibb.co/SX6nGR8X/instagram-18087664472187285.jpg)](https://www.instagram.com/p/DWHdowODNAC/) |
 |--- | --- | --- |
 ## Latest Blog Posts
 
-- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/posts/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
-- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/posts/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
-- **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/posts/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
+- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
+- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
+- **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/tutorials/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
