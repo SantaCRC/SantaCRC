@@ -40,17 +40,14 @@
 
 ## Weather in Ferrol
 
-Current temperature: **15.09°C**
+Current temperature: **12.62°C**
 
-Weather description: **Scattered clouds**
+Weather description: **Clear sky**
 
 
-## Latest Instagram Posts
+## Instagram posts could not be retrieved.
 
- [![](https://i.ibb.co/BHfb3LJ9/instagram-18094372019111667.jpg)](https://www.instagram.com/p/DWzURjmF3PT/) | [![](https://i.ibb.co/C5kWGTkb/instagram-18097991704972340.jpg)](https://www.instagram.com/p/DWNGWEdl02d/) | [![](https://i.ibb.co/wZwfkMGL/instagram-18087664472187285.jpg)](https://www.instagram.com/p/DWHdowODNAC/) |
-|--- | --- | --- |
+
 ## Latest Blog Posts
 
-- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
-- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
-- **[Turn a PS2 Joystick into a USB Gamepad with Feather 32u4](http://fabianalvarez.dev/tutorials/feather-joystick/)** (01 Jun 2025): Step-by-step guide to connect a PS2 joystick to a Feather 32u4 using HID-Project and turn it into a USB gamepad, including Steam configuration.
+⚠️ Failed to load blog posts.
