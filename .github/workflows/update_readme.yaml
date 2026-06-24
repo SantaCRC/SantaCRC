@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 12 * * *" # Ejecutar todos los días a las 12:00 UTC
+    - cron: "0 12 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,43 +12,13 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
 
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.9"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests feedparser
-
-      - name: Debug token presence
-        run: |
-          if [ -z "${README_ACCESS_TOKEN}" ]; then
-            echo "README_ACCESS_TOKEN is empty"
-            exit 1
-          else
-            echo "README_ACCESS_TOKEN is present"
-          fi
-        env:
-          README_ACCESS_TOKEN: ${{ secrets.README_ACCESS_TOKEN }}
-
-      - name: Test Cloudflare with header
-        run: |
-          curl -I -L \
-            -H "X-Readme-Key: $README_ACCESS_TOKEN" \
-            --max-time 20 \
-            https://fabianalvarez.dev/instagram.json
-        env:
-          README_ACCESS_TOKEN: ${{ secrets.README_ACCESS_TOKEN }}
-
       - name: Checkout current repo
         uses: actions/checkout@v4
-      
+
       - name: Checkout only instagram.json from private repo
         uses: actions/checkout@v4
         with:
@@ -60,14 +30,48 @@ jobs:
           sparse-checkout-cone-mode: false
           fetch-depth: 1
 
-      - name: Debug connectivity
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
         run: |
-          echo "Testing instagram.json..."
-          curl -I -L --max-time 20 https://fabianalvarez.dev/instagram.json || true
-          echo "Testing instagram.json with IPv4..."
-          curl -4 -I -L --max-time 20 https://fabianalvarez.dev/instagram.json || true
-          echo "Testing RSS feed..."
-          curl -I -L --max-time 20 https://fabianalvarez.dev/index.xml || true
+          python -m pip install --upgrade pip
+          pip install requests feedparser
+
+      - name: Get runner public IP
+        id: runner_ip
+        run: |
+          ipv4=$(curl -s https://api.ipify.org)
+          echo "ipv4=$ipv4" >> "$GITHUB_OUTPUT"
+
+      - name: Create temporary Cloudflare IP access rule
+        id: cf_allow
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          RUNNER_IP: ${{ steps.runner_ip.outputs.ipv4 }}
+        run: |
+          response=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/firewall/access_rules/rules" \
+            -H "Authorization: Bearer ${CF_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data "{
+              \"mode\":\"whitelist\",
+              \"configuration\":{
+                \"target\":\"ip\",
+                \"value\":\"${RUNNER_IP}\"
+              },
+              \"notes\":\"Temporary GitHub Actions whitelist for README update\"
+            }")
+
+          echo "$response"
+
+          rule_id=$(echo "$response" | python -c "import sys, json; print(json.load(sys.stdin)['result']['id'])")
+          echo "rule_id=$rule_id" >> "$GITHUB_OUTPUT"
+
+      - name: Wait a few seconds for propagation
+        run: sleep 10
 
       - name: Run update script
         env:
@@ -82,3 +86,16 @@ jobs:
           git add README.md
           git diff --cached --quiet || git commit -m "Auto-update README.md"
           git push
+
+      - name: Remove temporary Cloudflare IP access rule
+        if: always()
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          RULE_ID: ${{ steps.cf_allow.outputs.rule_id }}
+        run: |
+          if [ -n "$RULE_ID" ]; then
+            curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/firewall/access_rules/rules/${RULE_ID}" \
+              -H "Authorization: Bearer ${CF_API_TOKEN}" \
+              -H "Content-Type: application/json"
+          fi
