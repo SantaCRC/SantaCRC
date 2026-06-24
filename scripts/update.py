@@ -1,7 +1,9 @@
-import requests
-import feedparser
-from datetime import datetime
+import json
 import os
+from datetime import datetime
+
+import feedparser
+import requests
 
 session = requests.Session()
 session.headers.update({
@@ -74,13 +76,14 @@ try:
 except Exception as e:
     print(f"[WARN] Weather request failed: {e}")
 
-instagram_url = "https://fabianalvarez.dev/instagram.json"
 instagram_section = "## Latest Instagram Posts\n\n"
 
 try:
-    r = session.get(instagram_url, timeout=10)
-    r.raise_for_status()
-    instagram_data = r.json()
+    instagram_file = "private-data/static/instagram.json"
+
+    with open(instagram_file, "r", encoding="utf-8") as f:
+        instagram_data = json.load(f)
+
     latest_posts = instagram_data[:9]
 
     cols = 3
@@ -108,13 +111,14 @@ try:
                     cell = f'[Link]({post_link})'
             else:
                 cell = ""
+
             row_cells.append(cell)
 
         instagram_section += "| " + " | ".join(row_cells) + " |\n"
 
     instagram_section += "\n"
 except Exception as e:
-    print(f"[WARN] Instagram request failed: {e}")
+    print(f"[WARN] Instagram file read failed: {e}")
     instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
 rss_feed_url = "https://fabianalvarez.dev/index.xml"
