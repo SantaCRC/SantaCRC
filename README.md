@@ -1,10 +1,11 @@
 <div align="center">
-  
+
 ## About me
-  
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineer;from+Costa+Rica)](https://github.com/SantaCRC)
 
 ### Programming languages
+
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
@@ -16,6 +17,7 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### Frameworks
+
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
@@ -30,14 +32,18 @@
 ![Tensor](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ### Social
+
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://fabianalvarez.dev)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabian-a-alvarez/)
 [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_SantaCRC_)
 
 ## Stats
+
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
-  
+
 </div>
+
+<div align="center">
 
 ## Weather in Ferrol
 
@@ -45,8 +51,13 @@ Current temperature: **27.41°C**
 
 Weather description: **Overcast clouds**
 
+</div>
+
+<div align="center">
 
 ## Latest Instagram Posts
+
+</div>
 
 |  |  |  |
 |---|---|---|
@@ -55,6 +66,16 @@ Weather description: **Overcast clouds**
 | [![🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...](https://i.ibb.co/v6d4p0TP/instagram-18049431370877643.jpg "🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...")](https://www.instagram.com/p/DEiJ2sbtTy-/) | [![At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...](https://i.ibb.co/1ffhr7Kj/instagram-18055742557794166.jpg "At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...")](https://www.instagram.com/p/DENy291tlO-/) | [![At the heart of Berlin’s bustling Alexanderplatz, the swing carousel spins jo...](https://i.ibb.co/67CtV6yW/instagram-18056212036791690.jpg "At the heart of Berlin’s bustling Alexanderplatz, the swing carousel spins jo...")](https://www.instagram.com/p/DENxHdmN4XQ/) |
 
 
+<div align="center">
+
 ## Latest Blog Posts
 
-⚠️ Failed to load blog posts.
+</div>
+
+<div align="center">
+
+- **[The beginnig of my master's thesis](http://fabianalvarez.dev/posts/tfm/tfm_1/)** (10 Jun 2026): Hello! I’m documenting my master&rsquo;s thesis journey publicly. The main reason is simple: I want to keep track of my progress and stay accountab...
+- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
+- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
+
+</div>
