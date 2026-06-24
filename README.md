@@ -47,7 +47,7 @@
 
 ## Weather in Ferrol
 
-Current temperature: **27.41°C**
+Current temperature: **29.2°C**
 
 Weather description: **Overcast clouds**
 
@@ -72,4 +72,10 @@ Weather description: **Overcast clouds**
 
 </div>
 
-<div align="center">⚠️ Failed to load blog posts.</div>
+<div align="center">
+
+- **[The beginnig of my master's thesis](http://fabianalvarez.dev/posts/tfm/tfm_1/)** (10 Jun 2026): Hello! I’m documenting my master&rsquo;s thesis journey publicly. The main reason is simple: I want to keep track of my progress and stay accountab...
+- **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
+- **[Linux on LiteX: Building a RISC-V SoC with Buildroot on Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/linux-on-litex/)** (12 Jun 2025): Learn how to create a fully functional RISC-V SoC capable of running Linux on a Tang Nano 20K FPGA using LiteX and Buildroot—perfect for low-cost e...
+
+</div>
