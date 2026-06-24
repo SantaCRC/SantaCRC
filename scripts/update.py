@@ -11,14 +11,14 @@ session.headers.update({
     "X-Readme-Key": os.getenv("README_ACCESS_TOKEN", "")
 })
 
-# Parte constante del README
 README_CONSTANT = """<div align="center">
-  
+
 ## About me
-  
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&multiline=true&width=420&height=100&lines=Hi!+my+name+is+Fabian;I+am+mechatronics+engineer;from+Costa+Rica)](https://github.com/SantaCRC)
 
 ### Programming languages
+
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
@@ -30,6 +30,7 @@ README_CONSTANT = """<div align="center">
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ### Frameworks
+
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
@@ -44,13 +45,15 @@ README_CONSTANT = """<div align="center">
 ![Tensor](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 ### Social
+
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://fabianalvarez.dev)
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabian-a-alvarez/)
 [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_SantaCRC_)
 
 ## Stats
+
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SantaCRC&theme=buefy-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=DD272700)](https://github.com/SantaCRC)
-  
+
 </div>
 """
 
@@ -61,22 +64,40 @@ if not OPENWEATHER_API_KEY:
 city = "Ferrol"
 weather_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
-weather_section = "## Weather information not available at the moment.\n\n"
+weather_section = """<div align="center">
+
+## Weather information not available at the moment.
+
+</div>
+"""
+
 try:
     weather_response = session.get(weather_url, timeout=10)
     weather_response.raise_for_status()
     weather_data = weather_response.json()
     weather_description = weather_data["weather"][0]["description"].capitalize()
     temperature = weather_data["main"]["temp"]
-    weather_section = (
-        f"## Weather in {city}\n\n"
-        f"Current temperature: **{temperature}°C**\n\n"
-        f"Weather description: **{weather_description}**\n\n"
-    )
+
+    weather_section = f"""<div align="center">
+
+## Weather in {city}
+
+Current temperature: **{temperature}°C**
+
+Weather description: **{weather_description}**
+
+</div>
+"""
 except Exception as e:
     print(f"[WARN] Weather request failed: {e}")
 
-instagram_section = "## Latest Instagram Posts\n\n"
+instagram_section = """<div align="center">
+
+## Latest Instagram Posts
+
+</div>
+
+"""
 
 try:
     instagram_file = "private-data/static/instagram.json"
@@ -119,7 +140,12 @@ try:
     instagram_section += "\n"
 except Exception as e:
     print(f"[WARN] Instagram file read failed: {e}")
-    instagram_section = "## Instagram posts could not be retrieved.\n\n"
+    instagram_section = """<div align="center">
+
+## Instagram posts could not be retrieved.
+
+</div>
+"""
 
 rss_feed_url = "https://fabianalvarez.dev/index.xml"
 rss_feed = feedparser.parse(
@@ -130,16 +156,24 @@ rss_feed = feedparser.parse(
     }
 )
 
-blog_section = "## Latest Blog Posts\n\n"
+blog_section = """<div align="center">
+
+## Latest Blog Posts
+
+</div>
+
+"""
 
 if rss_feed.bozo:
-    blog_section += "⚠️ Failed to load blog posts.\n"
+    blog_section += "<div align=\"center\">⚠️ Failed to load blog posts.</div>\n"
 else:
     sorted_entries = sorted(
         rss_feed.entries,
         key=lambda entry: entry.get("published_parsed") or entry.get("updated_parsed") or datetime.min.timetuple(),
         reverse=True
     )
+
+    blog_section += "<div align=\"center\">\n\n"
 
     for entry in sorted_entries[:3]:
         if entry.get("published_parsed"):
@@ -156,6 +190,8 @@ else:
         title = entry.get("title", "Untitled")
         link = entry.get("link", "#")
         blog_section += f"- **[{title}]({link})** ({pub_date}): {summary}\n"
+
+    blog_section += "\n</div>\n"
 
 with open("README.md", "w", encoding="utf-8") as file:
     file.write(README_CONSTANT)
