@@ -46,14 +46,19 @@ jobs:
         env:
           README_ACCESS_TOKEN: ${{ secrets.README_ACCESS_TOKEN }}
 
-      - name: Download private instagram.json
-        env:
-          PRIVATE_REPO_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
-        run: |
-          curl -L \
-            -H "Authorization: token ${PRIVATE_REPO_TOKEN}" \
-            -o instagram.json \
-            https://raw.githubusercontent.com/TU_USUARIO/TU_REPO_PRIVADA/main/instagram.json
+      - name: Checkout current repo
+        uses: actions/checkout@v4
+      
+      - name: Checkout only instagram.json from private repo
+        uses: actions/checkout@v4
+        with:
+          repository: SantaCRC/SantaCRC.github.io
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: private-data
+          sparse-checkout: |
+            static/instagram.json
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
 
       - name: Debug connectivity
         run: |
