@@ -45,74 +45,95 @@ README_CONSTANT = """<div align="center">
   
 """
 
-# API de OpenWeather
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
 if not OPENWEATHER_API_KEY:
-  raise EnvironmentError("OPENWEATHER_API_KEY environment variable is not set.")
+    raise EnvironmentError("OPENWEATHER_API_KEY environment variable is not set.")
 city = "Ferrol"
 weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={OPENWEATHER_API_KEY}&units=metric"
 
-weather_response = requests.get(weather_url)
-if weather_response.status_code == 200:
+weather_section = "## Weather information not available at the moment.\n\n"
+try:
+    weather_response = requests.get(weather_url, timeout=10)
+    weather_response.raise_for_status()
     weather_data = weather_response.json()
     weather_description = weather_data["weather"][0]["description"].capitalize()
     temperature = weather_data["main"]["temp"]
     weather_section = f"## Weather in {city}\n\nCurrent temperature: **{temperature}°C**\n\nWeather description: **{weather_description}**\n\n"
-else:
-    weather_section = "## Weather information not available at the moment.\n\n"
+except Exception:
+    pass
 
-# API de Instagram JSON
 instagram_url = 'https://fabianalvarez.dev/instagram.json'
+instagram_section = "## Latest Instagram Posts\n\n"
 
-# Obtener las últimas publicaciones de Instagram
-instagram_response = requests.get(instagram_url)
-if instagram_response.status_code == 200:
-    instagram_data = instagram_response.json()
-    latest_posts = instagram_data[:3]
+try:
+    r = requests.get(instagram_url, timeout=10)
+    r.raise_for_status()
+    instagram_data = r.json()
+    latest_posts = instagram_data[:9]  # tomar hasta 9 para 3x3 tabla
 
-    instagram_section = '## Latest Instagram Posts\n\n'
-    for post in latest_posts:
-        image_url = post.get('image_url', '')
-        post_link = post.get('source_link', '#')
-        instagram_section += f' [![]({image_url})]({post_link}) |'
-    instagram_section += '\n'
-    instagram_section += '|--- | --- | --- |'
-    
-else:
+    # Construir una tabla 3 columnas correctamente
+    cols = 3
+    rows = (len(latest_posts) + cols - 1) // cols
+
+    # Cabecera de la tabla (vacía para sólo imágenes)
+    header_cells = [""] * cols
+    divider = "| " + " | ".join(header_cells) + " |\n"
+    divider += "| " + " | ".join(["---"] * cols) + " |\n"
+
+    instagram_section += divider
+
+    # Rellenar filas
+    for r_idx in range(rows):
+        row_cells = []
+        for c in range(cols):
+            idx = r_idx * cols + c
+            if idx < len(latest_posts):
+                post = latest_posts[idx]
+                # usar image_url si existe, si no usar image o link
+                image_url = post.get("image_url") or post.get("image") or ""
+                post_link = post.get("source_link") or post.get("link") or "#"
+                caption = post.get("caption", "").strip().replace("\n", " ")
+                if len(caption) > 80:
+                    caption = caption[:77] + "..."
+                alt = caption or "Instagram image"
+                if image_url:
+                    # Evitar caracteres problemáticos y forzar raw si es githubusercontent
+                    cell = f'[![{alt}]({image_url} "{alt}")]({post_link})'
+                else:
+                    cell = f'[Link]({post_link})'
+            else:
+                cell = ""
+            row_cells.append(cell)
+        instagram_section += "| " + " | ".join(row_cells) + " |\n"
+except Exception:
     instagram_section = "## Instagram posts could not be retrieved.\n\n"
 
-# Obtener las últimas publicaciones del blog (ordenadas por fecha)
 rss_feed_url = "https://fabianalvarez.dev/index.xml"
 rss_feed = feedparser.parse(rss_feed_url)
 
 blog_section = "## Latest Blog Posts\n\n"
-
 if rss_feed.bozo:
     blog_section += "⚠️ Failed to load blog posts.\n"
 else:
-    # Ordenar explícitamente por fecha descendente
     sorted_entries = sorted(
         rss_feed.entries,
-        key=lambda entry: entry.published_parsed if "published_parsed" in entry else None,
+        key=lambda entry: entry.get("published_parsed") or entry.get("updated_parsed") or datetime.min,
         reverse=True
     )
-
     for entry in sorted_entries[:3]:
-        # Formatear fecha
         if "published_parsed" in entry:
             pub_date = datetime(*entry.published_parsed[:6]).strftime("%d %b %Y")
+        elif "updated_parsed" in entry:
+            pub_date = datetime(*entry.updated_parsed[:6]).strftime("%d %b %Y")
         else:
             pub_date = "Unknown date"
-
-        # Resumen corto
-        summary = entry.summary.strip()
+        summary = entry.get("summary", "").strip()
         if len(summary) > 150:
             summary = summary[:147] + "..."
+        title = entry.get("title", "Untitled")
+        link = entry.get("link", "#")
+        blog_section += f"- **[{title}]({link})** ({pub_date}): {summary}\n"
 
-        blog_section += f"- **[{entry.title}]({entry.link})** ({pub_date}): {summary}\n"
-
-
-# Crear el archivo README.md
 with open('README.md', 'w', encoding='utf-8') as file:
     file.write(README_CONSTANT)
     file.write('\n')
