@@ -38,6 +38,7 @@ jobs:
       - name: Run update script
         env:
           OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          README_ACCESS_TOKEN: ${{ secrets.README_ACCESS_TOKEN }}
         run: python scripts/update.py
 
       - name: Commit and push changes
