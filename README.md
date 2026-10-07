@@ -47,9 +47,9 @@
 
 ## Weather in Ferrol
 
-Current temperature: **17.05°C**
+Current temperature: **15.93°C**
 
-Weather description: **Overcast clouds**
+Weather description: **Light rain**
 
 </div>
 
@@ -74,8 +74,8 @@ Weather description: **Overcast clouds**
 
 <div align="center">
 
+- **[micro-ROS on an ESP32 over USB: Control a DC Motor from ROS 2](http://fabianalvarez.dev/tutorials/microros-esp32-usb/)** (05 Oct 2026): Step-by-step guide to running micro-ROS on an ESP32 with the Arduino IDE, connecting it to ROS 2 Humble over a USB serial link, and driving a DC mo...
 - **[The beginnig of my master's thesis](http://fabianalvarez.dev/posts/tfm/tfm_1/)** (10 Jun 2026): Hello! I’m documenting my master&rsquo;s thesis journey publicly. The main reason is simple: I want to keep track of my progress and stay accountab...
 - **[How to Run Zephyr on a LiteX SoC in the Tang Nano 20K](http://fabianalvarez.dev/tutorials/litex/zephyr/)** (15 Aug 2025): Step-by-step guide to install and run Zephyr OS on a LiteX SoC with VexRiscv on the Tang Nano 20K FPGA.
-- **[Integración de la mano robótica SoftHand con el robot UR5 y su Implementación en el Robot Operating System (ROS)](http://fabianalvarez.dev/papers/softhand-ur5-ros/)** (23 Jul 2025): This dissertation was written and published in Spanish. See the DOI link above for the full record on Zenodo.
 
 </div>
