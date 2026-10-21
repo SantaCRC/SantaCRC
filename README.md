@@ -47,7 +47,7 @@
 
 ## Weather in Ferrol
 
-Current temperature: **15.87°C**
+Current temperature: **14.43°C**
 
 Weather description: **Overcast clouds**
 
@@ -72,4 +72,10 @@ Weather description: **Overcast clouds**
 
 </div>
 
-<div align="center">⚠️ Failed to load blog posts.</div>
+<div align="center">
+
+- **[micro-ROS on an ESP32 over USB: Control a DC Motor from ROS 2](http://fabianalvarez.dev/tutorials/microros-esp32-usb/)** (05 Oct 2026): Step-by-step guide to running micro-ROS on an ESP32 with the Arduino IDE, connecting it to ROS 2 Humble over a USB serial link, and driving a DC mo...
+- **[The beginnig of my master's thesis](http://fabianalvarez.dev/posts/tfm/tfm_1/)** (10 Jun 2026): Hello! I’m documenting my master&rsquo;s thesis journey publicly. The main reason is simple: I want to keep track of my progress and stay accountab...
+- **[e-MDB Interface for Robotics Experiment Frameworks (Master's Thesis)](http://fabianalvarez.dev/projects/emdb-simulator/)** (09 Apr 2026): Interface between the e-MDB cognitive architecture and RoboCasa/robosuite (MuJoCo) through ROS 2 topics and services, for teleoperation, demo recor...
+
+</div>
