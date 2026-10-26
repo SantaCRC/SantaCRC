@@ -47,9 +47,9 @@
 
 ## Weather in Ferrol
 
-Current temperature: **19.12°C**
+Current temperature: **16.66°C**
 
-Weather description: **Overcast clouds**
+Weather description: **Clear sky**
 
 </div>
 
@@ -61,9 +61,9 @@ Weather description: **Overcast clouds**
 
 |  |  |  |
 |---|---|---|
-| [![Barcelona part 2](https://i.ibb.co/kWjgq4c/instagram-17861593776646586.jpg "Barcelona part 2")](https://www.instagram.com/p/DaYhdV8qd-A/) | [![Ferrol in monochrome: Devotion at Nosa Señora do Nordés (Chamorro).](https://i.ibb.co/gM3nPsFs/instagram-18094372019111667.jpg "Ferrol in monochrome: Devotion at Nosa Señora do Nordés (Chamorro).")](https://www.instagram.com/p/DWzURjmF3PT/) | [![Ría de Ferrol in monochrome: guys on the small pier, spring’s first quiet.](https://i.ibb.co/0yRBJLYM/instagram-18097991704972340.jpg "Ría de Ferrol in monochrome: guys on the small pier, spring’s first quiet.")](https://www.instagram.com/p/DWNGWEdl02d/) |
-| [![Chasing the last winter light, sailing into spring.](https://i.ibb.co/81pZ0Jq/instagram-18087664472187285.jpg "Chasing the last winter light, sailing into spring.")](https://www.instagram.com/p/DWHdowODNAC/) | [![Capturing the celestial spectacle of the Blood Moon Eclipse, a cosmic dance b...](https://i.ibb.co/Kzb0DXXM/instagram-17882335290251239.jpg "Capturing the celestial spectacle of the Blood Moon Eclipse, a cosmic dance b...")](https://www.instagram.com/p/DHRbzu2PhqM/) | [![🌙✨ Run away… but make it art. 🎨💋🎶  She stands still, yet she runs—through col...](https://i.ibb.co/Xmzz7jt/instagram-18033765989225463.jpg "🌙✨ Run away… but make it art. 🎨💋🎶  She stands still, yet she runs—through col...")](https://www.instagram.com/p/DF20iQbNaka/) |
-| [![📸✨ Schloss der Universität Potsdam ✨📸  Ein beeindruckendes architektonisches ...](https://i.ibb.co/yck7YkcL/instagram-18064214422895959.jpg "📸✨ Schloss der Universität Potsdam ✨📸  Ein beeindruckendes architektonisches ...")](https://www.instagram.com/p/DFjHNQ8SbVh/) | [![🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...](https://i.ibb.co/vxxtgRDV/instagram-18049431370877643.jpg "🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...")](https://www.instagram.com/p/DEiJ2sbtTy-/) | [![At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...](https://i.ibb.co/zWxsQtzX/instagram-18055742557794166.jpg "At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...")](https://www.instagram.com/p/DENy291tlO-/) |
+| [![Barcelona part 2](https://i.ibb.co/zW2fzM1N/instagram-17861593776646586.jpg "Barcelona part 2")](https://www.instagram.com/p/DaYhdV8qd-A/) | [![Ferrol in monochrome: Devotion at Nosa Señora do Nordés (Chamorro).](https://i.ibb.co/twGd7F1y/instagram-18094372019111667.jpg "Ferrol in monochrome: Devotion at Nosa Señora do Nordés (Chamorro).")](https://www.instagram.com/p/DWzURjmF3PT/) | [![Ría de Ferrol in monochrome: guys on the small pier, spring’s first quiet.](https://i.ibb.co/Q2FLRN5/instagram-18097991704972340.jpg "Ría de Ferrol in monochrome: guys on the small pier, spring’s first quiet.")](https://www.instagram.com/p/DWNGWEdl02d/) |
+| [![Chasing the last winter light, sailing into spring.](https://i.ibb.co/bjbTwxNw/instagram-18087664472187285.jpg "Chasing the last winter light, sailing into spring.")](https://www.instagram.com/p/DWHdowODNAC/) | [![Capturing the celestial spectacle of the Blood Moon Eclipse, a cosmic dance b...](https://i.ibb.co/F4T5FRDB/instagram-17882335290251239.jpg "Capturing the celestial spectacle of the Blood Moon Eclipse, a cosmic dance b...")](https://www.instagram.com/p/DHRbzu2PhqM/) | [![🌙✨ Run away… but make it art. 🎨💋🎶  She stands still, yet she runs—through col...](https://i.ibb.co/PvxLpVNh/instagram-18033765989225463.jpg "🌙✨ Run away… but make it art. 🎨💋🎶  She stands still, yet she runs—through col...")](https://www.instagram.com/p/DF20iQbNaka/) |
+| [![📸✨ Schloss der Universität Potsdam ✨📸  Ein beeindruckendes architektonisches ...](https://i.ibb.co/tPN0TQBK/instagram-18064214422895959.jpg "📸✨ Schloss der Universität Potsdam ✨📸  Ein beeindruckendes architektonisches ...")](https://www.instagram.com/p/DFjHNQ8SbVh/) | [![🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...](https://i.ibb.co/nsG6jTb9/instagram-18049431370877643.jpg "🐒✨ La magia de los Makacos de Ferrol ✨🐒  ¿Sabías que Ferrol esconde un pequeñ...")](https://www.instagram.com/p/DEiJ2sbtTy-/) | [![At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...](https://i.ibb.co/FqCf906y/instagram-18055742557794166.jpg "At the heart of Berlin’s lively winter celebrations, a grand Ferris wheel tur...")](https://www.instagram.com/p/DENy291tlO-/) |
 
 
 <div align="center">
